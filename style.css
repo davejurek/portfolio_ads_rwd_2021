@@ -1,5 +1,328 @@
-#background{
-    height: 1440px;
-    width: 1750px;
-    background-image: url('https://i.imgur.com/viNGpXj.png');
+*{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navbar{
+    width: 1353px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #220BF1;
+}
+
+.navbar h1{
+    left: 7.39%;
+    right: 73.98%;
+    top: 32.5%;
+    bottom: 31.25%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.navbar a{
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.apresentacao{
+    width: 1353px;
+    height: 460px;
+    left: 0px;
+    top: 80px;
+    background-color: #220BF1;
+}
+
+.apresentacao img{
+    height: 460px;
+    width: 521px;
+    left: 188px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.apresentacao h1{
+    left: 47.89%;
+    right: 22.54%;
+    top: 33.91%;
+    bottom: 59.78%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.apresentacao h2{
+    left: 47.89%;
+    right: 34.96%;
+    top: 38.7%;
+    bottom: 56.52%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+.apresentacao p{
+    left: 47.89%;
+    right: 7.91%;
+    top: 46.74%;
+    bottom: 38.91%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.portfolio{
+    width: 1353px;
+    height: 460px;
+    left: 0px;
+    top: 540px;
+    background-color: #FFFFFF;
+}
+
+.portfolio h1{
+    left: 40.95%;
+    right: 40.95%;
+    top: 10.22%;
+    bottom: 83.48%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.portfolio h2{
+    left: 32.82%;
+    right: 32.74%;
+    top: 16.96%;
+    bottom: 73.48%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+a.containerGit{
+    left: 18.26%;
+    right: 63.27%;
+    top: 34.13%;
+    bottom: 11.52%;
+
+    background: #F1F1F1;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+a.containerGit:hover{
+    background: #DEDEDE;
+}
+
+.containerGit img{
+    width: 151px;
+    height: 85px;
+    left: 19.6%;
+    right: 20%;
+    top: 14.4%;
+    bottom: 51.6%;
+}
+
+.containerGit h1{
+    left: 35.6%;
+    right: 36%;
+    top: 56%;
+    bottom: 32.4%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.containerGit h2{
+    left: 21.2%;
+    right: 21.2%;
+    top: 67.6%;
+    bottom: 14.8%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+a.containerUnnamed{
+    left: 40.8%;
+    right: 40.72%;
+    top: 34.13%;
+    bottom: 11.52%;
+
+    background: #FF3A3A;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+a.containerUnnamed:hover{
+    background: #E13A3A;
+}
+
+.containerUnnamed h1{
+    left: 19.2%;
+    right: 19.6%;
+    top: 38.4%;
+    bottom: 38.4%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+a.containerUnnamed2{
+    left: 63.34%;
+    right: 18.18%;
+    top: 34.13%;
+    bottom: 11.52%;
+
+    background: #FF3A3A;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+a.containerUnnamed2:hover{
+    background: #E13A3A;
+}
+
+.containerUnnamed2 h1{
+    left: 19.2%;
+    right: 19.6%;
+    top: 38.4%;
+    bottom: 38.4%;
+
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+div.contato{
+    width: 1353px;
+    height: 460px;
+    left: 0px;
+    top: 1000px;
+
+    background-color: #220BF1;
+}
+
+.contato img{
+    width: 349px;
+    height: 344px;
+    left: 4.29%;
+    right: 69.92%;
+    top: 25.22%;
+    bottom: 0%;
+}
+
+.contato h1{
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.contato h2{
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.containerContato{
+    left: 37.18%;
+    right: 37.18%;
+    top: 39.13%;
+    bottom: 42.39%;
+
+    background: #FFEC42;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+a.containerContato:hover{
+    background: #CAB815;
+}
+
+.containerContato h3{
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
 }
